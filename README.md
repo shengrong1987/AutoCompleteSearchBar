@@ -5,6 +5,18 @@ AutoCompleteSearchBar is a subclass of UISeachBar which supports the autocomplet
 - Selecting one of the results will replace the search text
 - Compact mode(compact mode is minimized the results list frame, default is off)
 
+Install with Cocoapod
+============
+copy this in your podfile
+```
+pod 'AutoCompleteSearchBar', :git => 'https://github.com/shengrong1987/AutoCompleteSearchBar.git
+```
+
+run from your commandline from your project directory
+```
+pod install
+```
+
 Usage
 ============
 AutoCompleteSearchBar support configuring the maxheight of the result table view in two ways either using a fixed maximum height or puting the maximum result number. Check out in Configuration section for more.
